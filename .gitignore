@@ -1,0 +1,9 @@
+/md2pdf
+/output/
+
+/testdata/*.pdf
+/testdata/*.png
+
+.DS_Store
+.idea/
+.vscode/

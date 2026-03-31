@@ -1,0 +1,9 @@
+//go:build darwin || linux
+
+package pdf
+
+import "os/exec"
+
+func execLookPath(name string) (string, error) {
+	return exec.LookPath(name)
+}

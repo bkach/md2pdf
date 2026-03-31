@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">md2pdf pipeline diagram</title>
+  <desc id="desc">A simple diagram showing Markdown flowing through HTML styling into a PDF.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f6f8fa" />
+      <stop offset="100%" stop-color="#eaeef2" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="360" rx="24" fill="url(#bg)" />
+  <g font-family="Helvetica, Arial, sans-serif">
+    <rect x="48" y="110" width="220" height="140" rx="20" fill="#0d1117" />
+    <rect x="370" y="110" width="220" height="140" rx="20" fill="#0969da" />
+    <rect x="692" y="110" width="220" height="140" rx="20" fill="#1f2328" />
+    <text x="158" y="165" font-size="32" fill="#ffffff" text-anchor="middle">Markdown</text>
+    <text x="158" y="205" font-size="18" fill="#9fb3c8" text-anchor="middle">goldmark</text>
+    <text x="480" y="165" font-size="32" fill="#ffffff" text-anchor="middle">HTML + CSS</text>
+    <text x="480" y="205" font-size="18" fill="#dceeff" text-anchor="middle">theme layer</text>
+    <text x="802" y="165" font-size="32" fill="#ffffff" text-anchor="middle">PDF</text>
+    <text x="802" y="205" font-size="18" fill="#c9d1d9" text-anchor="middle">headless Chrome</text>
+    <path d="M286 180h64" stroke="#1f2328" stroke-width="10" stroke-linecap="round" />
+    <path d="M608 180h64" stroke="#1f2328" stroke-width="10" stroke-linecap="round" />
+    <path d="M342 180l-18 -18m18 18l-18 18" stroke="#1f2328" stroke-width="10" stroke-linecap="round" />
+    <path d="M664 180l-18 -18m18 18l-18 18" stroke="#1f2328" stroke-width="10" stroke-linecap="round" />
+  </g>
+</svg>
