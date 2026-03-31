@@ -36,6 +36,7 @@ Examples:
 - Supports common GitHub-flavored Markdown features including tables, task lists, fenced code blocks, and footnotes
 - Supports local relative images
 - Uses Chrome to print styled HTML to PDF
+- Zed task setup is documented in `docs/zed.md`
 
 ## Development
 

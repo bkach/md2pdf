@@ -1,0 +1,9 @@
+[
+  {
+    "label": "Export $ZED_FILENAME to PDF",
+    "command": "case \"$ZED_FILE\" in (*.md|*.markdown) ;; (*) echo \"Current file is not Markdown: $ZED_FILE\"; exit 1 ;; esac; pdf_path=\"$ZED_DIRNAME/$ZED_STEM.pdf\"; \"$HOME/src/md2pdf/md2pdf\" \"$ZED_FILE\" && open -a Preview \"$pdf_path\" && osascript -e 'tell application \"Preview\" to activate'",
+    "reveal": "always",
+    "use_new_terminal": false
+  }
+]
+
